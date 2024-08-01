@@ -1745,8 +1745,8 @@ while 1:
         con = pymysql.connect(
             host="localhost",
             port=3306,
-            user="root",
-            password=password,
+            user="newadmin",
+            password='Divyaraj@123',
             db="Hospital",
             cursorclass=pymysql.cursors.DictCursor,
         )
